@@ -1,0 +1,33 @@
+MATRICULE : 20271585
+
+rapport du devoir :
+
+dans la question 1.1) et 1.2) j'ai pris un tableau où chacun des éléments est un prénom + nom, d'un auteur trouvés sur Wikipédia. J'ai ensuite fait une fonction qui passe par tous les
+noms du tableau et transforme chaque nom en entier avant d'appliquer l'exponentiation modulaire pour ensuite comparer la réponse obtenue avec le cryptogramme. Si les deux
+sont égaux alors ça veut dire que l'on a trouvé l'auteur qu'on cherchait.
+pour la question 2), j'ai remarqué que le cryptogramme a le même nombre d'éléments, une fois divisé en octant, que le nombre de symboles de l'extrait qu'on recherche. Alors j'ai créé
+une fonction qui prend en paramètre le cryptogramme et le texte entier et qui nous retourne l'extrait qui a été codé. pour se faire la fonction commence par diviser le cryptogramme en
+octant et note dans un autre tableau la séquence associée au cryptogramme c'est-à-dire les différent éléments ainsi que leur position. exemple tab = [a,b,a,c,a] la séquence va être,
+séquence = [1,2,1,3,1] (un numéro pour représenter chaque élément distinct et leur position). Ensuite la fonction va parcourir l'entièreté du texte lettre par lettre, pour chaque
+lettre on va rajouter le nombre d'élément nécessaire derrière pour former un extrait qui quand on le transforme en symbole est de la même longueur que le cryptogramme et donc
+de l'extrait recherché. Pour finir la fonction va calculer la séquence pour chacun des extrait transformé en symbole qui ont la longueur du cryptogramme, et dés que la fonction trouve
+une séquence égale à la séquence du cryptogramme alors la fonction retourne l'extrait en question.
+
+sources: wikipedia, list of author by name :
+
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_A ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_B ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_C ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_D ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_E ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_F ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_G ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_H ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_I ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_J ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_K ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_L ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_M ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_N ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_O ;
+https://en.wikipedia.org/wiki/List_of_authors_by_name:_P ;
